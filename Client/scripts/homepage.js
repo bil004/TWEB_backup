@@ -15,10 +15,6 @@ function init() {
     }
 }
 
-function openPopup() {
-    console.log("ciao");
-}
-
 function user_choice() {
     let user_type_text = document.getElementById("user-type-text");
 
@@ -48,6 +44,7 @@ function close_popup_window() {
     }
 }
 
+// TODO: non funziona testo user-choice cliccabile per aprire popup window
 function show_popup_window() {
     console.log("test");
     let popup_div = document.getElementById("popup-window-div");
