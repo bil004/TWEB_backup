@@ -23,16 +23,19 @@ body {
 
 #user-type-div {
     display: flex;
-    justify-content: center;   /* centra orizzontalmente /
-    align-items: center;       / centra verticalmente */
+    justify-content: center;
+    align-items: center;
     height: 100%;
     color: black;
     padding: 14px 16px;
     font-size: 17px;
+    width: 60px;
 }
 
 #user-type-text {
-    display: block;
+    margin: 0;
+    display: inline-flex;
+    position: relative;
 }
 
 .topnav a {

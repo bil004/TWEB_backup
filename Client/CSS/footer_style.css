@@ -1,0 +1,38 @@
+footer {
+    background: #141216;
+    padding: 40px 20px;
+    color: #ccc;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#socials-div {
+    margin-bottom: 20px;
+}
+
+#socials-div a {
+    margin: 0 8px;
+}
+
+#socials-div .icon img{
+    width: 100%;
+    height: 100%;
+}
+
+#socials-div .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.footer-text {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: #fff;
+    text-decoration: underline;
+}
