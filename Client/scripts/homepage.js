@@ -1,3 +1,5 @@
+init();
+
 function init() {
     let normal_user_btn = document.getElementById("normal-user-btn");
     let journalist_btn = document.getElementById("journalist-btn");
@@ -8,11 +10,8 @@ function init() {
         journalist_btn.onclick = journalist_choice;
     }
 
-    if (user_choice_div) {
-        user_choice_div.onclick = show_popup_window;
-    } else {
-        console.error("ciao");
-    }
+    if (user_choice_div) user_choice_div.onclick = show_popup_window;
+    else console.error("popup error");
 }
 
 function user_choice() {
